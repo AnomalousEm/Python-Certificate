@@ -10,3 +10,10 @@ Date:   02/16/2025
 
 import currency
 
+src = str(input('3-letter code for original currency: '))
+dst = str(input('3-letter code for the new currency: '))
+amt = float(input('Amount of the original currency: '))
+
+newamt = round(currency.exchange(src,dst,amt),3)
+
+print('You can exchange ' + str(amt) +' '+ src + ' for ' + str(newamt) +' '+ str(dst) + '.')
