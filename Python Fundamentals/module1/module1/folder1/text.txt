@@ -1,1 +1,0 @@
-This is a sample text file to verify that you are in the correct directory.
